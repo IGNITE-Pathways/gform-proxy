@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/googleform.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/googleform", "dest": "/api/googleform.js" }
+  ]
+}
+
